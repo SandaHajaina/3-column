@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
+
+body{
+    height: 100vh;
+    font-family: Karla;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+    width: 900px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+h2 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 30px;
+}
+
+p {
+    line-height: 1.5;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.row {
+    display: flex;
+}
+
+.one{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+
+.two{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.three{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+
+.col {
+    height: 45vh;
+    padding: 40px;
+    position: relative;
+}
+
+.one a{
+    color: hsl(31, 77%, 52%);
+}
+
+.two a{
+    color: hsl(184, 100%, 22%);
+}
+
+.three a {
+    color: hsl(179, 100%, 13%);
+}
+
+a {
+    text-decoration: none;
+    background: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    border-color: hsla(0, 0%, 100%, 0.75);
+    padding: 10px 25px 10px 25px;
+    position: absolute;
+    bottom: 40px;
+}
+
+a:hover {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+}
+
+/*
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Karla', sans-serif;
+*/
